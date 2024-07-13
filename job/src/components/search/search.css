@@ -1,0 +1,41 @@
+
+.search {
+  display: inline-block;
+  justify-content: space-between;
+  padding: 20px;
+
+  }
+  .container {
+    margin-top: 5%;
+    text-align: center;
+  }
+  
+  .cards {
+   
+    padding: 20px;
+    max-width: 300px;
+    max-height: 600px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: white;
+  }
+  
+  .cards:hover {
+    transform: scale(1.05);
+  }
+  .cards-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+  }
+  .cards-details {
+    padding: 15px;
+  }
+  /* .grids-two-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  } */

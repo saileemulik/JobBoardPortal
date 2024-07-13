@@ -1,0 +1,65 @@
+@keyframes blink-text {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.blink-text {
+  animation: blink-text 1s infinite;
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: yellow;
+  text-shadow: 2px 2px rgb(255, 132, 0);
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.bg-image-container {
+  position: relative;
+  height: 610px;
+  background-image: url('job3.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  padding-top: 130px;
+  background: linear-gradient(45deg, rgba(255, 0, 0, 0.7), rgba(0, 0, 255, 0.7));
+  padding-top: 130px;
+  border-radius: 8px;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: yellow;
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+.innovative-heading {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 48px;
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 4px 4px 4px rgba(255, 19, 19, 0.863);
+  color: yellow;
+}

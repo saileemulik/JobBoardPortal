@@ -1,0 +1,48 @@
+.contacts{
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #329ae3 100%);    
+display: inline-block;
+width: 50%;
+height: 100%;
+}
+.inputs{
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+.connect{
+    display: inline-block;
+ width: 50%;
+height: 100%;
+padding-top: 0px;
+}
+.contacts input::placeholder{
+    color: white;
+    padding-left: 30px;
+}
+.contacts textarea::placeholder{
+    color: white;
+    padding-left: 30px;
+}
+.instagram{
+    color:#E4405F;
+    font-size: 1.5rem;
+}
+.facebook{
+    color:#1877F2;
+    font-size: 1.5rem;
+}
+.twitter{
+    color:  #1DA1F2;
+    font-size: 1.5rem;
+}
+.linkedin{
+    color: #0077B5;
+    font-size: 1.5rem;
+}
+.website{
+    color:#c2bdbd;
+    font-size: 1.5rem;
+}
