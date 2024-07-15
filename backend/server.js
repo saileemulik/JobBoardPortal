@@ -97,8 +97,9 @@ app.get('/api/search', async (req, res) => {
 
 app.use(errorMiddleware);
 
-app.use((req, res, next) => {
+app.use("/",(req, res, next) => {
   console.log(`Received ${req.method} request at ${req.url}`);
+  res.send("Server is running.");
   next();
 });
 
